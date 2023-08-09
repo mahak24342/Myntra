@@ -1,0 +1,177 @@
+html,body{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.home{
+    width:80vw;
+    margin: 12px 0;
+}
+.search{
+    height:30px;
+    width:160px;
+    margin: 20px;
+    margin-left: 180px;
+    margin-top: 35px;
+    border-style: none;
+}
+.ui{
+    display: flex;
+    margin-right: -20px;
+}
+.bagi{
+    padding: 0 10px;
+padding-left: -10px;
+
+}
+.ni{
+    font-size: 12px;
+    color:rgb(188, 38, 63);
+font-weight: bold;
+}
+.container{
+    
+    padding: 0 10vw;
+}
+header{
+    position:sticky;
+    top:0;
+    background-color: white;
+    height:66px;
+    margin-right: 13px;
+}
+.my{
+    text-align: center;
+    margin: 12px 0;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.item{
+    width:20vw;
+    margin:6px 12px;
+}
+.ol{
+    justify-content: center;
+    align-items: center;
+
+}
+.img{
+    margin-top: 40px;
+    padding-right:40px;
+    align-items: end;
+}
+.io{
+    display: flex;
+    margin-top: 5px;
+    justify-content:10px  space-between;
+margin-left: 20px;
+align-items: center;
+}
+.bagy{
+    margin-left: 10px;
+    margin-top: 20px;
+padding-right: 20px;
+display: flex;
+}
+.bag{
+    margin-top: 5px;
+    
+}
+.search div{
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 12px;
+}
+#p1{
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 35px;
+}
+.p1{
+    margin-right: 5px;
+}
+.left img{
+    width:90px;
+    height:90px;
+    
+}
+#right{
+    justify-content: space-around;
+margin-top: 10px;
+
+}
+nav{
+    padding:0 20px;
+}
+.container{
+    
+    padding:0 10vw;
+margin-top: 1px;
+    margin: auto;
+  
+}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+.center{
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 400;
+    align-items: center;
+   
+}
+.io{
+    display: flex;
+    margin: 12px;
+}
+.ccenter{
+    align-items: center;
+}
+@media(max-width:1240px){
+    header{
+      
+        height:122px;
+
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:10px ;
+        margin-right: 5px;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+    }
+    .container{
+        flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    }
+    .left img{
+        margin-left: -250px;
+    }
+    .item{
+        width:30vw;
+        flex-wrap: wrap;
+    }
+    .container{
+        padding: 0 10vw;
+
+    }
+    .io{
+        flex-direction: column;
+        margin-left: 90px;
+    }
+    .rright{
+        margin-left: -150px;
+        margin-top: -40px;
+    }
+    .search{
+        margin-bottom: 20px;
+    }
+}
